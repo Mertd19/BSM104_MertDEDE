@@ -52,7 +52,7 @@ public class LinkedIntList {
 	
 	public ListNode nodeAt (int index) {
 		ListNode current = front;
-		for(int i = 0 ; i <= index; i++) {
+		for(int i = 0 ; i < index; i++) {
 			current = current.next;
 		}
 		return current;
