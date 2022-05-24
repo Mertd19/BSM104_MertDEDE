@@ -12,10 +12,10 @@ public class Search {
 		//int index = indexOf(numbers,51);
 		
 		if(index != -1) {
-			System.out.println("Elemanın index'i : "+ index);
+			System.out.println("ElemanÃ½n index'i : "+ index);
 		}
 		else {
-			System.out.println("Eleman Bulunamadı .!");
+			System.out.println("Eleman BulunamadÃ½ .!");
 		}
 	}
 	
@@ -74,7 +74,7 @@ public class Search {
 				min = mid + 1;
 			}
 			else {
-				min = max -1 ;
+				max = mid -1 ;
 			}
 		}
 		return -1;	
